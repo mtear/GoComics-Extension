@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "GoComics Puller",
+  "description": "This extension separates the current image from a GoComics webpage",
+  "version": "1.0",
+  
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+	"default_title": "Get Comic Image"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
